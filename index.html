@@ -1,16 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Francisco Iriarte - Portafolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francisco Alan Iriarte Mamani - Portafolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Francisco Iriarte</h1>
-  <p>Chemical Engineer | Process Simulation | TOEFL Prep</p>
-  <h2>Logros</h2>
-  <ul>
-    <li>Internship en Sinchi Wayra S.A.</li>
-    <li>Presidente del consejo estudiantil UCB</li>
-    <li>Proyectos de Python para análisis de datos</li>
-  </ul>
+  <!-- Navbar -->
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+      <img src="tu-foto.jpg" alt="Foto de Francisco" class="hero-img">
+      <h1>Francisco Alan Iriarte Mamani</h1>
+      <h2>Ingeniero Químico | Energía & Data Analytics</h2>
+      <p>Profesional en ingeniería de procesos, optimización energética y digitalización industrial. Experiencia en Oil & Gas, sustentabilidad y liderazgo académico.</p>
+      <div class="hero-buttons">
+        <a href="Francisco_Iriarte_CV.pdf" class="btn">Descargar CV</a>
+        <a href="#contacto" class="btn btn-outline">Contactar</a>
+      </div>
+      <div class="scroll-down">↓</div>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="section">
+    <h2>Sobre mí</h2>
+    <p>Soy un Ingeniero Químico con excelencia académica y experiencia en TotalEnergies, SinchiWayra y proyectos de digitalización industrial. Mi perfil combina innovación tecnológica, sustentabilidad y liderazgo en entornos energéticos internacionales.</p>
+  </section>
+
+  <!-- Experiencia -->
+  <section id="experiencia" class="section">
+    <h2>Experiencia</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>TotalEnergies Bolivie</h3>
+        <span>Oct 2025 – Presente</span>
+        <p>Implementación de Inspección Basada en Riesgo, digitalización de procesos y monitoreo de emisiones con PI System.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>SinchiWayra S.A.</h3>
+        <span>Jun 2024 – Nov 2024</span>
+        <p>Optimización de procesos metalúrgicos y reducción del 40% en consumo de reactivos.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Universidad Católica Boliviana</h3>
+        <span>Feb 2024 – Jun 2025</span>
+        <p>Auxiliar de docencia en Control de Procesos y Balances de Energía, integrando IA en la enseñanza.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Educación -->
+  <section id="educacion" class="section">
+    <h2>Educación</h2>
+    <ul>
+      <li>Licenciatura en Ingeniería Química, UCB (Promedio 93.5/100)</li>
+      <li>Diplomado en Educación Superior e IA, UPB (Promedio 98/100)</li>
+    </ul>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades" class="section">
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Ingeniería de Procesos</div>
+      <div class="skill-card">Python & Data Analytics</div>
+      <div class="skill-card">PI System / OSIsoft</div>
+      <div class="skill-card">MATLAB / Simulink</div>
+      <div class="skill-card">Control PID</div>
+      <div class="skill-card">Inglés Avanzado</div>
+    </div>
+  </section>
+
+  <!-- Certificaciones -->
+  <section id="certificaciones" class="section">
+    <h2>Certificaciones</h2>
+    <div class="cards">
+      <div class="card">Aspire Leaders Program (Harvard)</div>
+      <div class="card">Joint Training Nuclear Technologies (MEPHI)</div>
+      <div class="card">Curso Python en Industria Petrolera (CBHE)</div>
+      <div class="card">Experto PID con MATLAB/Simulink</div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+    <p>Email: franciscoiriartemamani@gmail.com</p>
+    <p>Teléfono: 60500798</p>
+    <p>LinkedIn: linkedin.com/in/franciscoiriarte</p>
+    <p>Ciudad: Santa Cruz, Bolivia</p>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
